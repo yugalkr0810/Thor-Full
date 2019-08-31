@@ -1,0 +1,230 @@
+@font-face{
+	font-family: Etna;
+	src:url("etna.otf");
+}
+@font-face{
+	font-family: Brandon Grotesque;
+	src:url("Brandon.otf");
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+
+	}
+.thor{
+	   margin: 0 auto;
+	   background-color: #006FFF;
+	   width: 90%;
+	   position: relative;
+	   z-index: 0;
+	}
+
+h1{
+	color: white;
+	text-align: left;
+	letter-spacing: 0px;
+	font-family: Etna;
+	margin-top: 198px;
+	margin-left: 109px;
+	z-index: -1;
+	font-size: 50px;
+	position: relative;
+	}
+p{
+	color: white;
+	font-size: 16px;
+	font-family: Brandon Grotesque;
+	margin-left: 109px;
+	margin-top: 73px;
+	margin-bottom: 73px;
+	z-index: -1;
+	position: relative;
+
+
+	}
+button{
+	border-style: none;
+	background-color: white;
+	box-shadow: 0px 3px 54px #00000061;
+	border-radius: 51px;
+	padding: 25px 100px;
+	margin-left:109px;
+	overflow: auto;
+	z-index: -1;
+	position: relative;
+	}
+
+a{
+	text-decoration: none;
+	border-radius: 40px;
+	font-size: 16px;
+	background-color: white;
+	color: #006EFE;
+	overflow: auto;
+	font-family: Etna;
+	src:url("etna.otf");
+	position: relative;
+
+	}
+a:hover{
+	text-decoration: none;
+	}
+img{
+	max-width: : 90%;
+	height: auto;
+	}
+.image{
+	max-height: 100vh;
+    max-width: 100%;
+    z-index: 1;
+  
+	}
+.clippy{   
+	min-height: 100%;
+    min-width: 100%;
+    background: white 0% 0% no-repeat padding-box;
+    clip-path: polygon(0 0, 30% 0, 90% 100%, 40% 100%, 0 40%);
+    z-index: 1;
+    opacity: 0.275;
+    position: absolute;
+    left:0;
+    margin: 0em;
+    padding: 0;
+    
+	}
+.number{
+    text-align: right;
+    font-family: Etna;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 0.2;
+    font-size: 9em;
+    box-sizing: border-box;
+    position: relative;
+    top: -0.3em;
+    margin:0px;
+    padding: 0px;
+	}
+
+
+
+@media (max-width: 768px){
+@font-face{
+	font-family: Etna;
+	src:url("etna.otf");
+}
+@font-face{
+	font-family: Brandon Grotesque;
+	src:url("Brandon.otf");
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    max-height: 100%;
+
+	}
+.thor{
+	   background-color: #006FFF;
+	   width: 100%;
+	   position: relative;
+	   z-index: 0;
+	}
+
+
+h1{
+	color: white;
+	text-align: center;
+	letter-spacing: 0px;
+	font-family: Etna;
+	z-index: -1;
+	font-size: 37px;
+	margin: 90px 0px 0px;
+	position: relative;
+	}
+p{
+	color: white;
+	font-size: 14px;
+	font-family: Brandon Grotesque;
+	z-index: 1;
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	text-align: justify;
+	margin: 40px 0px 110px;
+	
+
+	}
+button{
+	border-style: none;
+	background-color: white;
+	border-radius: 40px;
+	padding: 12px 25px;
+	box-shadow: 0px 3px 18px #00000033;
+	opacity: 1;
+	overflow: auto;
+	z-index: 1;
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	}
+
+a{
+	text-decoration: none;
+	border-radius: 40px;
+	font-size: 16px;
+	background-color: white;
+	color: #006EFE;
+	overflow: auto;
+	font-family: Etna;
+	src:url("etna.otf");
+	position: relative;
+	text-align: center;
+
+	}
+a:hover{
+	text-decoration: none;
+	}
+img{
+	max-width: : 90%;
+	height: auto;
+	}
+.image{
+	max-height: 100vh;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+    text-align: center;
+    margin:0 auto;
+    top: -250px;
+  
+	}
+.clippy{   
+	min-height: 100%;
+    min-width: 100%;
+    background: white 0% 0% no-repeat padding-box;
+    clip-path: polygon(0 40%, 0 0, 100% 100%, 60% 100%);
+    z-index: 2;
+    opacity: 0.275;
+    position: absolute;
+    left:0;
+    margin: 0em;
+    padding: 0;
+    
+	}
+.number{
+    text-align: right;
+    font-family: Etna;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 0.2;
+    font-size: 9em;
+    box-sizing: border-box;
+    position: relative;
+    top: -0.3em;
+    margin:50px 0 0;
+    padding: 0px;
+	}
+ }
